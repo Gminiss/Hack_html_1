@@ -1,0 +1,169 @@
+body {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  margin: 10%;
+  margin-top: 3%;
+  justify-content: space-between;
+  height: 120px;
+  margin-bottom: 0;
+}
+
+.circle {
+  background-color: #7ed957;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 1.5%;
+  margin-top: 15px;
+}
+
+h1 {
+  flex-basis: 70%;
+  font-size: 30px;
+}
+
+h2 {
+  float: right;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  background-image: url('https://hack-html02.s3.amazonaws.com/img/2.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  font-weight: bold;
+  color: #EEEEEE;
+}
+
+.first {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.separation-1 {
+  background-color: #00BF63;
+  width: 20%;
+}
+
+.separation {
+  background-color: #00BF63;
+  margin-top: 0.5%;
+  width: 35%;
+}
+
+.first p {
+  margin: 0;
+  margin-left: 10%;
+  font-size: 30px;
+}
+
+.second {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.second p {
+  margin: 0;
+  margin-left: 10%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.separation-2 {
+  background-color: black;
+  width: 35%;
+}
+
+.separation-3 {
+  background-color: black;
+  width: 25%;
+  margin-top: 0.5%;
+}
+
+#message {
+  margin-left: 10%;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+#msn {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#imagen-1 {
+  height: 400px;
+  width: 28%;
+}
+
+#imagen-2 {
+  height: 370px;
+  width: 28%;
+}
+
+#imagen-3 {
+  height: 330px;
+  width: 28%;
+}
+
+#inf {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 10%;
+  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.title {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+#inf2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: space-between;
+}
+
+#inf3 {
+  position: absolute;
+  right: 10%;
+  width: 20%;
+}
+
+footer {
+  display: flex;
+  background-color: #00BF63;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer p {
+  color: #EEEEEE;
+}
