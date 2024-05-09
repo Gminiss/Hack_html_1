@@ -1,3 +1,10 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+body{
+    margin: 0;
+}
 #contenedor{
     background: none;
     position: relative;
@@ -6,52 +13,52 @@
     position:absolute;
     width: 100%;
     height: 150px;
-    background-color: #93B5C9;
+    background-color: var(--bg-blue);
 }
 #box-2{
     position:absolute;
     width: 100%;
     height: 250px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     top: 120px; 
 }
 #box-3{
     position:absolute;
-    width: 50%;
+    width: 80%;
     height: 130px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     top: 390px; 
     right: 0px;
 }
 #box-4{
     position:absolute;
-    width: 50%;
+    width: 80%;
     height: 130px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     top: 540px; 
     right: 0px;
 }
 #box-5{
     position:absolute;
-    width: 50%;
+    width: 80%;
     height: 130px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     top: 690px; 
     right: 0px;
 }
 #box-6{
     position:absolute;
-    width: 50%;
+    width: 80%;
     height: 130px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     top: 840px; 
     right: 0px;
 }
 #box-7{
     position:absolute;
-    width: 98%;
+    width: 97%;
     height: 100px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     top: 990px;
-    left: 1%;
+    left: 2%;
 }
