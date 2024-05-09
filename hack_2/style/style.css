@@ -1,3 +1,10 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+body{
+    margin: 0;
+}
 #contenedor{
     background: none;
     float: none;
@@ -6,40 +13,41 @@
 #item-1{
     width: 100%;
     height: 150px;
-    background-color: #93B5C9;
+    background-color: var(--bg-blue);
 }
 #item-2{
     width: 100%;
     height: 250px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
 }
 #item-3{
     width: 78%;
     height: 130px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     margin-top: 30px;
 }
 #item-4{
     width: 78%;
     height: 130px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     margin-top: 30px;
 }
 #item-5{
     width: 78%;
     height: 130px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     margin-top: 30px;
 }
 #item-6{
     width: 78%;
     height: 130px;
-    background-color: #AB2849;
+    background-color: var(--bg-wine);
     margin-top: 30px;
 }
 #item-7{
-    width: 96%;
+    width: 95%;
     height: 100px;
-    background-color: #AB2849;
-    margin: 25px;
+    background-color: var(--bg-wine);
+    margin: 20px;
+    margin-left: 2.5%;
 }
